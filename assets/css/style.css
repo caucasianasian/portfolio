@@ -1,0 +1,122 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.navText{
+	color: #000 !important;
+}
+.navText:hover{
+	color: #999 !important;
+}
+.navbar-brand{
+	color: #000 !important;
+}
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+#mainImage{
+	background: url("images/main.jpg") no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	top: 0;
+	margin-top: -3%;
+	left: 0;
+	color: white;
+	text-shadow: 1px 2px 3px #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#buzzPic{
+	border-radius: 100%;
+	height: 100px;
+}
+#portfolio{
+	background: #f9fbff;
+}
+.portfolioButton{
+	margin: 1.5%;
+}
+#mainContent{
+	background: rgba(0, 0, 0, 0.45);
+	justify-content: center;
+	padding: 5%;
+	border-radius: 15px;
+}
+#projects{
+	float: left;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+#translation{
+	height: 200px;
+}
+.project{
+	height: 200px;
+	margin: 1.66%;
+}
+#simon{
+	height: 200px;
+}
+#todo{
+	height: 200px;
+	margin: 1.66%;
+}
+#buttons{
+	width: 100%;
+	justify-content: space-between;
+}
+.blog{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+#contactForm{
+color: #d4d4d4;
+text-shadow: 1px 2px 3px #000;
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(left, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 */
+}
+#blog{
+	background: #f9fbff;
+}
+#interested{
+	background: url("images/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-content: center;
+}
+#interestedContent{
+	color: white;
+	text-shadow: 1px 2px 3px #000;
+
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, .15);
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	align-items: center;
+}
+#skillsProgress h4{
+	margin-bottom: 0;
+}
+#topSkill{
+	margin-top: 5%;
+}
+footer{
+	color: #d4d4d4;
+	background: #000;
+}
