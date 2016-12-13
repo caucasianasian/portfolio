@@ -66,6 +66,10 @@ section{
 #simon{
 	height: 200px;
 }
+#hangman{
+	height: 200px;
+}
+
 #todo{
 	height: 200px;
 	margin: 1.66%;
