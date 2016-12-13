@@ -1,0 +1,104 @@
+
+#randomWord{
+	float: left;
+	display: flex;
+	height: 25px;
+}
+.square{
+	width: 25px;
+	height: 35px;
+	border-bottom: 1px black solid;
+	margin: 1px;
+}
+.alphabet{
+	width: 5%;
+	height: 35px;
+	margin: 10px;
+}
+#lettersUsed{
+	float: left;
+	display: flex;
+	flex-flow: row wrap;
+}
+#hangmanFull{
+	width: 500px;
+	margin-top: 3%;
+}
+#topBar{
+	position: relative;
+	left: 100px;
+	height: 4px;
+	width: 150px;
+	background: black;
+}
+#midParts{
+	display: flex;
+}
+#leftBar{
+	position: relative;
+	left: 100px;
+	width: 4px;
+	background: black;
+	height: 200px;
+}
+#rightBar{
+	position: relative;
+	left: 200px;
+	width: 4px;
+	background: black;
+	height: 40px;
+}
+.headWrong{
+	border: 2px black solid;
+}
+.wrong{
+	background: #000;
+}
+#head{
+	position: relative;
+	left: 184px;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	margin-top: 5vh;
+	margin-right: 50px;
+}
+#mansBody{
+	position: relative;
+	top: 65px;
+	left: 116px;
+	width: 2px;
+	height: 70px;
+}
+#leftArm{
+	transform: rotate(45deg);
+	height: 2px;
+	width: 40px;
+	position: relative;
+	top: 70px;
+	left: 80px;
+}
+#rightArm{
+	transform: rotate(135deg);
+	height: 2px;
+	width: 40px;
+	position: relative;
+	top: 70px;
+	left: 69px;
+}
+#leftLeg{
+	transform: rotate(135deg);
+	height: 2px;
+	width: 40px;
+	position: relative;
+	top: 145px;
+	left: 1px;
+}
+#rightLeg{
+	transform: rotate(45deg);
+	height: 2px;
+	width: 40px;
+	position: relative;
+	top: 145px;
+	right: 10px;
+}

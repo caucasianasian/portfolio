@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--JQUERY-->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h1 class="text-center">Hangman</h1>
+
+
+<div class="buttons text-center">
+<button id="start" class="btn btn-default">Start</button>
+</div>
+<br>
+<h3 class="text-center">Chances Left: <span id="chancesLeft"></span></h3>
+<div id="inputs" class="text-center">
+	<span>Guess a letter</span>
+	<input id="letterGuess" maxlength="1" type="text" onkeypress="letterGuessFunc(event)">
+</div>
+<div id="hangmanFull" class="container tex-center">
+	<div id="topBar">
+	</div>
+	<div id="midParts">
+	<div id="leftBar"></div>
+	<div id="rightBar"></div>
+	<div id="head"></div>
+	<div id="mansBody"></div>
+	<div id="leftArm"></div>
+	<div id="rightArm"></div>
+	<div id="leftLeg"></div>
+	<div id="rightLeg"></div>
+
+</div>
+</div>
+
+<div class="container" class="text-center">
+	<div id="randomWord">
+	</div>
+
+</div>
+<div class="container">
+	<h1 class="text-center">Letters Available</h1>
+	<div id="lettersUsed">
+	</div>
+</div>
+<script src="functions.js"></script>
+</body>
+</html>
