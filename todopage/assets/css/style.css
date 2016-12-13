@@ -1,0 +1,125 @@
+*{
+	font-family: arial;
+
+}
+body{
+background: #B3FFAB; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #B3FFAB , #12FFF7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #B3FFAB , #12FFF7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+h1{
+	background: #2980b9;
+	color: #fff;
+	margin: 0;
+	padding: 0.3em;
+	text-transform: uppercase ;
+	padding-left: 20px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	}
+.trash{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.5s linear;
+	opacity: 0;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fa-plus{
+	float: right;
+}
+
+
+li:hover .trash{
+	width: 40px;
+	opacity: 100;
+}
+.importance{
+	text-align: center;
+	background: #fff;
+	display: flex;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	font-weight: bold;
+}
+.importance span{
+	padding-right: 2.5%;
+	padding-left: 5%;
+}
+.importantBox{
+	width: 15px;
+	padding-bottom: 15px;
+	background: #efa197;
+	border-radius: 100%;
+	margin: 0 auto;
+	
+}
+.mediumBox{
+	width: 15px;
+	padding-bottom: 15px;
+	background: #aaef97;
+	border-radius: 100%;
+	margin: 0 auto;
+	
+}
+
+input{
+	width: 100%;
+	border-style: none;
+	background-color: #d3d3d3;
+	font-size: 18px;
+	padding: 13px 13px 20px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	color: black;
+}
+input:focus{
+	background: #d3d3d3;
+	border: 3px solid #2980b9;
+	outline: none;
+	color: black;
+}
+.importantLi{
+	background-color: #efa197;
+}
+.importantClick{
+	width: 45%;
+}
+.normalClick{
+	width: 45%;
+}
+.normalLi{
+	background-color: #aaef97;
+}
+li{
+	height: 40px;
+	line-height: 40px;
+	font-height: 25px;
+	color: #111;
+	font-weight: bold;
+	background-color: #f7f7f7;
+	border-bottom: 1px #e4e4e4 dotted;
+}
+
+#container{
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+	width: 25em;
+	background: #f7f7f7;
+	margin: 5em auto;
+	border-radius: 10px;
+
+}
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
