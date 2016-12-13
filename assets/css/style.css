@@ -67,7 +67,7 @@ section{
 	height: 200px;
 }
 #hangman{
-	height: 200px;
+	height: 200px !important;
 	margin: 1.66%;
 }
 
