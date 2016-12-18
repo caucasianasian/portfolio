@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Chris Maton</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+<body>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<section id="landing">
+	<div id="navContainer">
+		<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a id="menuToggle" href="#about">About</a></li>
+			</ul>
+			<a href="#" id="pull">
+			</a>
+		</nav>
+	</div>
+	<div id="titlecontent">
+		<div id="centeredContent">
+			<h1>I'm Chris Maton</h1>
+			<a id="myWorkBTN" href="#portfolio">My Work</a>
+			</div>
+	</div>
+</section>
+<section class="centerSection" id="about">
+	<div class="container">
+		<h1>About Me</h1>
+		<div class="aboutParagraph notCenter">
+			<p>Born and raised in Fairfax Virginia, I attended university in South Korea to study business and the Korean language. Upon graduation, I worked at a few mobile gaming companies to help localize, publish, and operate some of the world's top ranking games.
+
+			While working in the mobile gaming industry, I became interested in getting behind the scenes, and learning how to code myself. I started learning early 2015, but I did not take it too seriously until mid 2016. I am now looking for a chance to break into the industry of the creation of the interwebs!</p>
+
+			<p>I am someone who strongly believes in learning by doing. As a business degree holder, I have no formal coding education, but I continue to learn and improve every day. I am constantly on the search for new and exciting technologies that will change the world.
+
+			You should never do anything half-way. If you start something, you need to finish it. The hardest part of any race is always the last mile.</p>
+		</div>
+
+	<h1>My Skills</h1>
+	<p>HTML, CSS, Javascript, jQuery, MongoDB, Express, Angular, Node.js</p>
+</div>
+</section>
+<section class="centerSection" id="resume">
+	<div class="container">
+		<h2>My Resume</h2>
+		<h3><u><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</u></h3>
+		<div class="resumeContainer">
+			<div class="resumeBox">
+				<h4>Korea University</h4>
+				<p>2012 - 2015</p>
+				<p><u>Major</u></p>
+				<p>Business Administration</p>
+				<p><u>Clubs &amp; Organizations</u></p>
+				<p>KUNISA</p>
+				<p>Computer Club</p>
+			</div>
+			<div class="resumeBox">
+				<h4>Radford University</h4>
+				<p>2008 - 2012</p>
+				<p><u>Major</u></p>
+				<p>Finance</p>
+				<p><u>Clubs &amp; Organizations</u></p>
+				<p>Omicron Delta Epsilon</p>
+			</div>
+		</div>
+		<h3><u><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</u></h3>
+		<div class="resumeContainer">
+			<div class="resumeBox">
+				<h4>IGS Inc.</h4>
+				<p>Global Team</p>
+				<p>May 2016 - November 2016</p>
+				<p><u>Duties</u></p>
+				<p>Translation, Localization, Community Growth, User Experience</p>
+			</div>
+			<div class="resumeBox">
+				<h4>DeNA</h4>
+				<p>Publishing Team</p>
+				<p>June 2015 - May 2016</p>
+				<p><u>Duties</u></p>
+				<p>Translation, Localization, Internet Marketing, Industry Analysis</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="centerSection" id="portfolio">
+<div class="container">
+<h2>My Creations</h2>
+	<div class="portfolioBox">
+		<div id="oldPortfolio" class="portfolioItem">
+			<div class="hoverBox">
+				<p><u>Old Portfolio</u></p>
+				<p>languages used:</p>
+				<p>HTML, CSS, Javascript</p>
+				<a class="viewMore" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View Live</a>
+			</div>
+		</div>
+		<div id="simonSays" class="portfolioItem">
+			<div class="hoverBox">
+				<p><u>Simon Says</u></p>
+				<p>languages used:</p>
+				<p>HTML, CSS, Javascript</p>
+				<a class="viewMore" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View Live</a>
+			</div>
+		</div>
+		<div id="calculator" class="portfolioItem">
+			<div class="hoverBox">
+				<p><u>Four Function Calculator</u></p>
+				<p>languages used:</p>
+				<p>HTML, CSS, Javascript</p>
+				<a class="viewMore" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View Live</a>
+			</div>
+		</div>
+		<div id="todo" class="portfolioItem">
+			<div class="hoverBox">
+				<p><u>To Do List</u></p>
+				<p>languages used:</p>
+				<p>HTML, CSS, Javascript, jQuery</p>
+				<a class="viewMore" href="#"><i class="fa fa-eye" aria-hidden="true"></i> View Live</a>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="contact">
+	<div class="centerSection">
+		<h2>Contact Me</h2>
+		<div id="contactForm">
+		<h3>Interested in my work?</h3>
+		<h4>Would you like to work together?</h4>
+	
+		<a id="sendBTN" href="mailto:chrismaton@naver.com">Get in Contact!</a>
+		</div>
+		</div>
+
+</section>
+
+<footer>
+	<p>Chris Maton</p>
+	<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+</footer>
+<script src="functions.js"></script>
+</body>
+</html>
