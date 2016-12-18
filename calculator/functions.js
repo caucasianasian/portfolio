@@ -51,8 +51,8 @@ for(var i=0; i<equationBTN.length; i++){
     if(fullStr.length !== 0){
       noDec = 0;
       if(pressedEquals === 1){
-        output.textContent = parseFloat(fullStr);
-        fullStr = parseFloat(fullStr);
+        output.textContent = eval(fullStr);
+        fullStr = eval(fullStr);
         }
       pressedEquals = 0;
       //
@@ -99,8 +99,8 @@ clearBTN.addEventListener("click", function(){
 });
 
 compute.addEventListener("click", function(){
-  output.textContent = parseFloat(fullStr);
-  fullStr = parseFloat(fullStr);
+  output.textContent = eval(fullStr);
+  fullStr = eval(fullStr);
   console.log(fullStr);
   pressedEquals = 1;
 });
