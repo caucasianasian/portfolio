@@ -333,6 +333,7 @@ content: "";
 #timer{
 	background: url('timer.jpg') no-repeat center center;
 	background-size: cover;
+}
 .viewMore{
 	display: none;
 	color: #fff;
