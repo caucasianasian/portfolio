@@ -1,0 +1,56 @@
+
+body{
+	font-family: 'Aref Ruqaa', serif;
+	color: white;
+	background: steelblue;
+
+}
+h1{
+	margin: 0 auto;
+	text-align: center;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 960px;
+	height: 100vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+}
+.clockStuff{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+#clockdiv{
+
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	display: flex;
+
+}
+.row{
+	padding: 10px;
+	margin: 20px;
+}
+
+button{
+	background: #83f442;
+	height: 40px;
+	line-height: 40px;
+	width: 80px;
+	font-size: 18px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+}
+#startBTN{
+	background: #f45c42;
+}
