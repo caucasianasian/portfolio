@@ -157,19 +157,22 @@
 	</div>
 </div>
 </section>
+    <section id="contact">
+      <div class="contactWrapper">
+        <h1 class="bigHeader contactHeader">Contact Me</h1>
+        <div class="bottomLine"></div>
 
-<section id="contact">
-	<div class="centerSection">
-		<h2>Contact Me</h2>
-		<div id="contactForm">
-		<h3>Interested in my work?</h3>
-		<h4>Would you like to work together?</h4>
-	
-		<a id="sendBTN" href="mailto:chrismaton@naver.com">Get in Contact!</a>
-		</div>
-		</div>
-
-</section>
+        <div class="contactForm">
+          <form action="http://formspree.io/chrismaton@naver.com" method="POST">
+            <input type="text" name="_gotcha" style="display:none">
+            <input class="basicInput" name="name" id="nameInput" type="text" placeholder="Name" required>
+            <input class="basicInput" name="email" id="emailInput" type="text" placeholder="Email Address" required>
+            <textarea id="textArea" name="message" placeholder="Message" rows="6" required></textarea>
+            <button class="btn btn-submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
 <footer>
 	<p>Chris Maton</p>
