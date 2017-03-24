@@ -334,6 +334,10 @@ content: "";
 	background: url('timer.jpg') no-repeat center center;
 	background-size: cover;
 }
+#fakeLanding{
+	background: url("fakeLanding.jpg") no-repeat center center;
+	background-size: cover;
+}
 .viewMore{
 	display: none;
 	color: #fff;
