@@ -335,7 +335,7 @@ content: "";
 	background-size: cover;
 }
 #fakeLanding{
-	background: url("fakeLanding.jpg") no-repeat center center;
+	background: url('fakeLanding.jpg') no-repeat center center;
 	background-size: cover;
 }
 .viewMore{
