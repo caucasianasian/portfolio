@@ -1,0 +1,17 @@
+*{
+	border: 1px red dotted;
+}
+.wrapper{
+	width: 100%;
+	display: flex;
+	overflow-wrap: wrap;
+}
+.xs-col-1{
+	width: 25%;
+}
+.xs-col-2{
+	width: 50%;
+}
+.xs-col-3{
+	width: 75%;
+}
