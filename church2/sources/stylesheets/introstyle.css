@@ -33,10 +33,13 @@
 }
 .churchImage{
 	width: 90%;
+	padding-top: 10px;
 }
 .content{
+	padding-top: 15px;
 	width: 90%;
 	text-align: left;
+	padding-bottom: 15px;
 }
 ul{
 	list-style: none;
@@ -44,9 +47,8 @@ ul{
 	margin: 0;
 }
  li{
- 	padding-left: 1em;
  	font-weight: 600;
- 	font-size: 1.2em;
+ 	font-size: 20px;
  }
  li:before{
  	content: "■ ";
@@ -54,5 +56,5 @@ ul{
  	font-size: 40px;
  }
  ul > p{
- 	padding-left: 1em;
+ 	padding-left: 10px;
  }
